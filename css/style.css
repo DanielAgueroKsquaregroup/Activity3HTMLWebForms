@@ -1,0 +1,24 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+form{
+    max-width: 80%;
+    margin: 0 auto;
+    display: grid;
+}
+
+label{
+    margin: 10px 0 5px ;
+}
+
+h1{
+    text-align: center;
+}
+
+button{
+    margin-top: 10px;
+    border: 0;
+    background-color: cornflowerblue;
+    font-weight: bold;
+}

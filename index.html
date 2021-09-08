@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Activity 3: HTML Web Form - Survey</title>
+</head>
+<body>
+
+    <h1>HTML web form</h1>
+
+    <form action="">
+        <label for="name">What is your name?</label>
+        <input type="text" name="name" id="name">
+
+        <label for="email">What is your email?</label>
+        <input type="email" name="email" id="email">
+
+        <label for="age">How old are you?</label>
+        <input type="number" name="age" id="age">
+
+        <label for="classes">Which class did you pick</label>
+        <select name="classes" id="classes">
+            <option value="Empty"></option>
+            <option value="JS">JavaScript</option>
+            <option value="Oracle">Oracle</option>
+            <option value="Sales">Salesforce</option>
+            <option value="Java">Java</option>
+        </select>
+
+        <label for="satisfaction">What is your level of satisfaction?</label>
+        <div class="radio">
+            <input type="radio" name="satisfaction" id="satisfaction">1
+            <input type="radio" name="satisfaction" id="satisfaction">2
+            <input type="radio" name="satisfaction" id="satisfaction">3
+            <input type="radio" name="satisfaction" id="satisfaction">4
+            <input type="radio" name="satisfaction" id="satisfaction">5
+            <input type="radio" name="satisfaction" id="satisfaction">6
+            <input type="radio" name="satisfaction" id="satisfaction">7
+            <input type="radio" name="satisfaction" id="satisfaction">8
+            <input type="radio" name="satisfaction" id="satisfaction">9
+            <input type="radio" name="satisfaction" id="satisfaction">10
+        </div>
+
+        <label for="comments">Please, leave a feedback</label>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
